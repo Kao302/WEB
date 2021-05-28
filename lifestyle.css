@@ -1,0 +1,471 @@
+body{
+    margin: 0px;
+    
+  
+}
+
+.header{
+background-image: url(images/photos/image\ 50.jpg);
+height: 500px;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+
+
+}
+.header-content{
+background-color: rgba(30, 32, 34, 0.192);
+height: 500px;
+
+
+
+}
+img{
+    height: 175px;
+    width: 220px;
+    position: relative; left: 1000px ;top: -30px;
+}
+.amsterdam{
+
+color: white;
+font-size: 160px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-decoration: underline;
+text-decoration-color: cornflowerblue;
+text-align: center;
+position:relative; bottom: 150px;
+
+}
+.location{
+    color: white;
+    font-size: 20px;
+  position: relative;top: 120px;
+  padding-left: 150px;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+.search-box{
+    position:relative; bottom:200px ;right: 0px;
+    padding-left: 900px;
+    height: 200px;
+    width: 300px;
+    border-radius: 30px;
+}
+.btn {
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(255, 255, 255);
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 30px;
+  }
+  .btn {
+    border-color: #e7e7e7;
+    color: rgb(255, 255, 255);
+  }
+    .btn:hover {
+    background: #e7e7e7;
+  }
+  .signin{
+      position: relative;bottom:225px ;
+      padding-left: 1100px;
+ }
+.nav{
+  background-color:#5f5f5f ;
+height: 75px;
+
+}
+.nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 30px 90px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: sans-serif;
+  }
+
+.nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.introwrapper{
+    background-color: rgb(211, 211, 211);
+height: 250px;
+display: flex;
+width: 100%;
+}
+.Title{
+text-align: center;
+color: rgb(68, 68, 68);
+font-family: sans-serif;
+width: 30%;
+padding-left:40px ;
+}
+
+.paragraph{
+color: rgb(68, 68, 68);  
+font-family: sans-serif;
+width: 70%;
+padding: 30px;
+padding-left:150px ;
+padding-right: 20px;
+font-size: 20px;
+}
+
+
+h2{
+    color: rgb(68, 68, 68);
+    font-family: sans-serif;   
+padding-left: 20px;
+}
+video{
+    padding-left:150px ;
+}
+.categories{
+    width:100%;
+    height:500px;
+    display: flex;
+    
+}
+.community{
+    background-image: url(images/photos/Stanislavski.jpg);
+   height:350px;
+   width:300px;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   border: 10px solid white;
+}
+.neighbourhoods{
+    background-image: url(images/photos/neighbourhoods.jpg);
+    height:350px;
+    width:300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 10px solid white;
+}
+.schools{
+    background-image: url(images/photos/image\ 13.jpg);
+    height:350px;
+    width:300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 10px solid white;
+}
+.housing{
+    background-image: url(images/photos/housing2.jpg);
+    height:350px;
+    width:300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 10px solid white;
+}
+.metropolitan{
+    background-image: url(images/photos/metropolitan.png);
+    height:350px;
+    width:300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 10px solid white;
+}
+.categories h1{
+    font-family: sans-serif;
+    background-color: white;
+    font-size: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: 10px solid white;
+    width: 60%;
+}
+.Title{
+    color:rgb(119, 119, 119);
+    font-family: sans-serif;
+    width:50%;
+
+}
+.Title2{
+    color:rgb(119, 119, 119);
+    font-family: sans-serif;
+    width:50%;
+padding-left: 60px;
+}
+.food{
+    display: flex;
+}
+.dish1{
+    background-image: url(images/photos/Top\ Dish.jpg);
+  height:420px;
+  width:420px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 10px solid white;
+}
+.dish2{
+    background-image: url(images/photos/Stroopwafels.jpg);
+    height:420px;
+    width:420px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    border: 10px solid white;
+}
+.dish3{
+    background-image: url(images/photos/Rawherring.jpg);
+    height:420px;
+    width:420px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 10px solid white;
+}
+.food p{
+    width: 80%;
+text-align: center;
+
+color: white;
+background-color: rgba(0, 0, 0, 0.37);
+font-family: sans-serif;
+height: 150px;
+position:relative;left:50px;
+position:relative;top:220px;
+}
+.food h1{
+    font-family: sans-serif;
+    background-color: white;
+    width:60%;
+    font-size: 20px;
+position: relative;left: 50px;
+}
+.subtitle{
+    font-family: sans-serif;
+    color:gray;
+}
+.subtitle2{
+    font-family: sans-serif;
+    color:gray;   
+}
+.culture{
+    display:flex;
+}
+.culture h1{
+    font-family: sans-serif;
+    background-color: white;
+    width:60%;
+    font-size: 20px;
+    position: relative;left: 50px; 
+
+}
+.culture p{
+    width: 80%;
+    text-align: center;
+    
+    color: white;
+    background-color: rgba(0, 0, 0, 0.37);
+    font-family: sans-serif;
+    height: 150px;
+    position:relative;left:50px;
+    position:relative;top:220px;  
+
+}
+.culture1{
+    background-image: url(images/photos/ReligionSpirituality.jpg);
+    height:420px;
+    width:420px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 10px solid white;  
+
+}
+.culture2{
+    background-image: url(images/photos/diversity.jpg);
+    height:420px;
+    width:420px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 10px solid white;
+}
+.culture3{
+    background-image: url(images/photos/Dutch\ culture.jpg);
+    height:420px;
+    width:420px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 10px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    background-color:#5f5f5f ;
+   width: 100%;
+   height: 35%;
+  }
+  .copystatement{
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 5px;
+    
+  }
+  .logofooter{
+  position:relative;right: 70%;
+  position:relative;left: 40%;
+  padding-top: 50px;
+  }
+  
+  
+  .facebook{
+    height: 50px;
+    width: 50px;
+    padding: 25px;
+    position:relative;right: 70%;
+  position:relative;left: 30%;
+   padding-right: 60px; 
+  }
+  .instagram{
+    height: 50px;
+    width: 50px;
+    padding: 25px;
+    position:relative;right: 70%;
+  position:relative;left: 30%;
+  padding-right: 60px;
+  }
+  .twitter{
+    height: 50px;
+    width: 50px;
+    padding: 25px;
+    position:relative;right: 70%;
+  position:relative;left: 30%;
+  padding-right: 60px; 
+  }
+  .youtube{
+    height: 40px;
+    width: 60px;
+    padding: 25px;
+    position:relative;right: 70%;
+  position:relative;left: 30%;
+  padding-right: 60px; 
+  }
+    
+
+
+
